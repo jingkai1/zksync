@@ -4,6 +4,7 @@ set -e
 
 check-environment.sh
 
+cp etc/env/dev.env.example etc/env/dev.env
 [ ! -z $CI ] || zksync dev-up
 zksync env
 zksync yarn || true # It can fail.
