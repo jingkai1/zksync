@@ -94,3 +94,4 @@ jobs:
         image: matterlabs/dev-ticker:latest
         ports:
           - 9876:9876
+
